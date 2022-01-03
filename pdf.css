@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Fira Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.head-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px dotted black;
+}
+.logo {
+  width: 30%;
+}
+.contact-content {
+  width: 70%;
+}
+.contact-content > p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.submit-form {
+  width: 15rem;
+  margin: 20px auto;
+  border-bottom: 2px solid #000;
+}
+.warning > h4 {
+  margin-bottom: 5px;
+}
+
+.remeinder-waring > * {
+  margin-bottom: 20px;
+}
+.remeinder > h4 {
+  margin-bottom: 10px;
+}
+.remeinder > ul > li {
+  margin-left: 18px;
+}
+.top-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.top-contact > * {
+  width: 48%;
+}
+
+.contact-details > h4 {
+  margin-bottom: 10px;
+}
+.ps-address {
+  margin-bottom: 10px;
+}
+.phoneDetails {
+  margin-bottom: 10px;
+}
+.three-input,
+.two-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.three-input > * {
+  width: 33%;
+}
+.two-input > .pin {
+  width: 38%;
+}
+.two-input > .price {
+  width: 58%;
+}
+
+.info-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.repairList {
+  margin-bottom: 10px;
+}
+.repair-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 3px;
+}
+.termsAnd-condition > p {
+  line-height: 21px;
+  padding-top: 8px;
+}
+.termsAnd-condition > ul {
+  margin-top: 8px;
+}
+.termsAnd-condition > ul > li {
+  margin-left: 35px;
+  line-height: 18px;
+}
+
+.footer-content {
+  padding: 5px 0px;
+}
+.signByInput {
+  padding: 10px 0px;
+}
+.footer-nameDate {
+  display: flex;
+  align-items: center;
+}
+.footer-nameDate > * {
+  width: 48%;
+}
