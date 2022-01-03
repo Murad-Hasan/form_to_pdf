@@ -58,7 +58,20 @@
               <div class="title">Phone Details</div>
               <div class="input-box">
                 <span class="details">Brand</span>
-                <input type="text" placeholder="Enter your Brand" required />
+                <select name="Brand" id="brand">
+                  <option value="Apple">Apple</option>
+                  <option value="Samsung">Samsung</option>
+                  <option value="Xiaomi">Xiaomi</option>
+                  <option value="Vivo">Vivo</option>
+                  <option value="Oppo">Oppo</option>
+                  <option value="Realme">Realme</option>
+                  <option value="OnePlus">OnePlus</option>
+                  <option value="Poco">Poco</option>
+                  <option value="Nokia">Nokia</option>
+                  <option value="Infinix">Infinix</option>
+                  <option value="iTel">iTel</option>
+                  <option value="Tecno">Tecno</option>
+                </select>
               </div>
               <div class="input-box">
                 <span class="details">Model</span>
@@ -81,6 +94,193 @@
                 <input type="number" placeholder="Enter your Rs." required />
               </div>
             </div>
+          </div>
+          <div class="otherInformation">
+            <div>
+              <label for="warranty">Is the phone under warranty?</label>
+              <select name="warranty" id="warranty">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div>
+              <label for="warranty"
+                >Have this phone been repaired by any one before
+              </label>
+              <select name="warranty" id="warranty">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div>
+              <label for="warranty"
+                >Have you upgraded the phone software?</label
+              >
+              <select name="warranty" id="warranty">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div>
+              <label for="warranty"
+                >Are you the original owner of the phone?
+              </label>
+              <select name="warranty" id="warranty">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div>
+              <label for="warranty"
+                >Have this phone suffered from impact damage?</label
+              >
+              <select name="warranty" id="warranty">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+            <div>
+              <label for="warranty">Does the phone have liquid damage? </label>
+              <select name="warranty" id="warranty">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+          </div>
+          <div class="faults_of_phone">
+            <label for=""
+              >Please tell us the faults of your mobile phone and you would like
+              us to repair for you (tick as many as possible answers)
+            </label>
+            <br />
+            <input
+              type="checkbox"
+              id="problem1"
+              name="problem1"
+              value="Phone not turning on"
+            />
+            <label for="problem1"> Phone not turning on</label><br />
+            <input
+              type="checkbox"
+              id="problem2"
+              name="problem2"
+              value="Phone is not charging"
+            />
+            <label for="problem2"> Phone is not charging</label><br />
+            <input
+              type="checkbox"
+              id="problem3"
+              name="problem3"
+              value="Power button not working"
+            />
+            <label for="problem3"> Power button not working</label> <br />
+            <input
+              type="checkbox"
+              id="problem4"
+              name="problem4"
+              value="Keypad not working"
+            />
+            <label for="problem4"> Keypad not working</label><br />
+            <input
+              type="checkbox"
+              id="problem5"
+              name="problem5"
+              value="Joystick is faulty"
+            />
+
+            <label for="problem5"> Joystick is faulty</label><br />
+            <input
+              type="checkbox"
+              id="problem6"
+              name="problem6"
+              value="cannot hold charge"
+            />
+            <label for="problem6"> cannot hold charge</label> <br />
+            <input
+              type="checkbox"
+              id="problem7"
+              name="problem7"
+              value="Touch screen in not working"
+            />
+
+            <label for="problem7"> Touch screen in not working</label><br />
+            <input
+              type="checkbox"
+              id="problem8"
+              name="problem8"
+              value="Data port not working"
+            />
+            <label for="problem8"> Data port not working</label><br />
+            <input
+              type="checkbox"
+              id="problem9"
+              name="problem9"
+              value="cannot read SIM card"
+            />
+            <label for="problem9"> cannot read SIM card</label> <br />
+            <input
+              type="checkbox"
+              id="problem10"
+              name="problem10"
+              value="LCD is cracked"
+            />
+            <label for="problem10"> LCD is cracked</label><br />
+            <input
+              type="checkbox"
+              id="problem11"
+              name="problem11"
+              value="LCD backlight is not working"
+            />
+            <label for="problem11"> LCD backlight is not working</label><br />
+            <input
+              type="checkbox"
+              id="problem12"
+              name="problem12"
+              value="Ringer not working"
+            />
+            <label for="problem12"> Ringer not working </label><br />
+            <input
+              type="checkbox"
+              id="problem13"
+              name="problem13"
+              value="Cannot hear the other party"
+            />
+            <label for="problem13"> Cannot hear the other party </label><br />
+            <input
+              type="checkbox"
+              id="problem14"
+              name="problem14"
+              value="Other party cannot hear me"
+            />
+            <label for="problem14"> Other party cannot hear me </label><br />
+            <input
+              type="checkbox"
+              id="problem15"
+              name="problem15"
+              value="Forget my phone password"
+            />
+            <label for="problem15"> Forget my phone password </label><br />
+            <input
+              type="checkbox"
+              id="problem16"
+              name="problem16"
+              value="Charging port is faulty"
+            />
+            <label for="problem16"> Charging port is faulty </label><br />
+            <input
+              type="checkbox"
+              id="problem17"
+              name="problem17"
+              value="Network lock"
+            />
+            <label for="problem17"> Network lock </label><br />
+            <input
+              type="checkbox"
+              id="problem18"
+              name="problem18"
+              value="Housing broken"
+            />
+            <label for="problem18"> Housing broken </label><br />
           </div>
           <div class="button">
             <input type="submit" value="Submit Details" />
