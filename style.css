@@ -132,6 +132,10 @@ form .input-address textarea::placeholder {
   border-radius: 5px;
   outline: none;
 }
+#otherFault {
+  border: none;
+  outline: none;
+}
 
 form .button {
   height: 45px;
